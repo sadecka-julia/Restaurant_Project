@@ -6,7 +6,7 @@ namespace ProjectRestaurant
 {
     class Employee
     {
-        private int _employeeID;
+        public int _employeeID {get; set;}
         private string _firstName;
         private string _lastName;
         private float _annualSallary;

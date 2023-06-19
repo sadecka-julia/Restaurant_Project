@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\STUDIA\\Akustyczna\\Semestr_2\\ProjektProgramowanie\\ProjectCode\\ProjectCode.csproj",
+      "projectUniqueName": "D:\\STUDIA\\Akustyczna\\Semestr_2\\ProjektProgramowanie\\ProjectRestaurant\\ProjectCode.csproj",
       "projectName": "ProjectCode",
-      "projectPath": "D:\\STUDIA\\Akustyczna\\Semestr_2\\ProjektProgramowanie\\ProjectCode\\ProjectCode.csproj",
+      "projectPath": "D:\\STUDIA\\Akustyczna\\Semestr_2\\ProjektProgramowanie\\ProjectRestaurant\\ProjectCode.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\STUDIA\\Akustyczna\\Semestr_2\\ProjektProgramowanie\\ProjectCode\\obj\\",
+      "outputPath": "D:\\STUDIA\\Akustyczna\\Semestr_2\\ProjektProgramowanie\\ProjectRestaurant\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
