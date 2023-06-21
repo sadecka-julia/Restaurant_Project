@@ -13,7 +13,10 @@ namespace ProjectRestaurant
         private List<EChef> chefs = new List<EChef>();
         private List<EManager> managers = new List<EManager>();
         private List<EWaiter> waiters = new List<EWaiter>();
-        private List<Table> tables = new List<Table>();
+        public List<Table> tables = new List<Table>();
+        public List<Reservation> reservationsHistory = new List<Reservation>();
+        public List<OrderDineIn> dineInOrders = new List<OrderDineIn>();
+        public List<OrderTakeAway> takeAwayOrders = new List<OrderTakeAway>();
         public Restaurant(string name, string address, Menu menu)
         {
             _name = name;
@@ -38,6 +41,18 @@ namespace ProjectRestaurant
         public void AddTable(Table table)
         {
             tables.Add(table);
+        }
+        public void AddReservation(Reservation reservation)
+        {
+            reservationsHistory.Add(reservation);
+        }
+        public void AddDineInOrder(OrderDineIn order)
+        {
+            dineInOrders.Add(order);
+        }
+        public void AddTakeAwayOrder(OrderTakeAway order)
+        {
+            takeAwayOrders.Add(order);
         }
     }
 }

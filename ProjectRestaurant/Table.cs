@@ -6,12 +6,12 @@ namespace ProjectRestaurant
 {
     class Table
     {
-        private int _tableID;
-        private int _capacity;
+        public int tableID {get; set;}
+        public int capacity {get; set;}
         public Table(int tableID, int capacity)
         {
-            _tableID = tableID;
-            _capacity = capacity;
+            this.tableID = tableID;
+            this.capacity = capacity;
         }
 
     }

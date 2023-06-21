@@ -7,15 +7,15 @@ namespace ProjectRestaurant
     class Dish
     {
         protected int _dishID;
-        public string Name {get; set;}
-        protected float _price;
-        protected int _amount;
+        public string name {get; set;}
+        public float price {get; set;}
+        public int Amount {get; set;}
         public Dish(int dishID, string name, float price, int amount)
         {
             _dishID = dishID;
-            Name = name;
-            _price = price;
-            _amount = amount;
+            this.name = name;
+            this.price = price;
+            Amount = amount;
         }
     }
 }

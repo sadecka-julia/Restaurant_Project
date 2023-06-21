@@ -17,9 +17,16 @@ namespace ProjectRestaurant
         }
         public void Execute()
         {
-            for(int i=0; i<_amount; i++)
+            if (_dish.Amount > 0)
             {
-                _order.AddDish(_dish);
+                for(int i=0; i<_amount; i++)
+                {
+                    _order.AddDish(_dish);
+                }
+            }
+            else
+            {
+                Console.WriteLine($"This product {_dish.name} is unavailable");
             }
         }
     }
